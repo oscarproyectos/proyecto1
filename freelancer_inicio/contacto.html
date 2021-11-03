@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseñador Freelancer</title>
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@1,600&display=swap" rel="stylesheet">
+    <link rel="preload" href="css/styles.css" as="style">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1 class="titulo">Oscar Alcantara <span>Freelancer</span></h1>
+    </header>
+
+    <div class="nav-bg">
+        <nav class="navegacion-primaria contenedor">
+            <a href="/index.html">Inicio</a>
+            <a href="#">Nosotros</a>
+            <a href="#">Clientes</a>
+            <a href="/contacto.html">Contacto</a>
+        </nav>
+    </div>
+    <main class="contenedor sombra">
+        <!--Cierre de la clase de "servicios"-->
+        <section>
+            <h2>Contacto</h2>
+
+            <form class="formulario">
+                <fieldset>
+                    <legend>Contactanos llenando el siguiente formulario</legend>
+                    <div class="contenedor-campos">
+                        <div class="campo"> 
+                            <label>Nombre</label>
+                            <input class="input-text" type="text" placeholder="Coloca tu nombre">
+                        </div>
+
+                        <div class="campo"> 
+                            <label>Correo</label>
+                            <input class="input-text" type="email" placeholder="ejemplo@ejemplo.com">
+                        </div>
+
+                        <div class="campo"> 
+                            <label>Telefono</label>
+                            <input class="input-text" type="tel" placeholder="Numero telefonico">
+                        </div>
+
+                        <div class="campo"> 
+                            <label>Mensaje</label>
+                            <textarea class="input-text"></textarea>
+                        </div>
+                    </div><!--.contenedor-campos-->
+
+                    <div class="alinear-derecha flex">
+                        <input class="boton w-100" type="submit" value="Enviar">
+                    </div>
+
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Todos los derechos reservados | Oscar Alcantara | Freelancer</p>
+    </footer>
+
+</body>
+
+</html>
